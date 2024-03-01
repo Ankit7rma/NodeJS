@@ -1,0 +1,46 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment-specific files
+.env
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore package-lock.json file
+package-lock.json
+
+# Ignore IDE or editor files
+.vscode/
+.idea/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive files with credentials
+credentials.json
+
+# Ignore files generated during development or testing
+*.tmp
+*.bak
+
+# Ignore npm-debug.log
+npm-debug.log
+
+# Ignore yarn debug files
+yarn-debug.log
+yarn-error.log
+
+# Ignore webpack generated files
+webpack-*.json
+
+# Ignore coverage directory for code coverage reports
+coverage/
+
+# Ignore Jest snapshots
+__snapshots__/
